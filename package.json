@@ -1,0 +1,28 @@
+{
+  "name": "dingding-robot",
+  "version": "1.0.0",
+  "description": "dingding robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlisliu/dingding-robot.git"
+  },
+  "keywords": [
+    "dingding",
+    "robot"
+  ],
+  "author": "Carlis Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlisliu/dingding-robot/issues"
+  },
+  "homepage": "https://github.com/carlisliu/dingding-robot#readme",
+  "dependencies": {
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
