@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/carlisliu/dingding-robot#readme",
   "dependencies": {
+    "cron-parser": "^2.4.3",
     "node-schedule": "^1.2.5",
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5"
