@@ -1,7 +1,7 @@
 const schedule = require('node-schedule');
 const rp = require('request-promise-native');
 
-schedule.scheduleJob('49 11 * * *', remind);
+schedule.scheduleJob('49 11 * * MON-FRI', remind);
 
 async function remind() {
     try {
